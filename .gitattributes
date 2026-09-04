@@ -1,0 +1,11 @@
+*.go linguist-detectable
+public/** linguist-vendored
+*.json linguist-detectable=false
+vendor/* linguist-vendored
+
+public/*.html linguist-vendored
+* text=auto   
+*.png binary
+*.min.css linguist-generated
+*.map linguist-generated
+**/*.go linguist-detectable
